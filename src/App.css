@@ -1,0 +1,141 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: rgb(241, 240, 240);
+}
+.navbar{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    background-color: rgb(112, 90, 231);
+  }
+  .navbar_text{
+    display:flex;
+    height:60px;
+    align-items:center;
+    width:1200px;
+    margin:0 auto;
+    
+  }
+  
+  .navbar_ul{
+    width:60%;
+    list-style-type:none;
+    display: flex;
+    justify-content:flex-end;
+  }
+  .navbar_ul li a{
+    text-decoration: none;
+    color:white;
+    padding: 0 10px;
+    font-weight: 500;
+  
+  }
+  .logo {
+    width: 40%;
+  }
+  .logo img {
+    width: 200px;
+    height:60px;
+  }
+  
+  .banner{
+    width:100%;
+    height:100vh;
+   background:url('./component/image/banner.png');
+   background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .banner_content{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+  }
+  .container{
+    width:1200px;
+    max-width: 1200px;
+    margin:0 auto;
+    
+  }
+  .banner_text{
+    width:100%;
+  }
+  .banner_text h1{
+  font-size: 50px;
+ 
+  }
+  
+  .banner_text p{
+    font-size: 25px;
+  
+    font-weight: 400;
+    margin-top: 20px;
+    }
+    
+    .btn{
+       text-decoration: none;
+       border: none;
+       outline:none;
+     
+       font-weight: 700;
+       border-radius: 30px;
+       font-size: 20px;
+       padding:20px 40px;
+    }
+    .btn-one{
+      
+      background-color: rgb(94, 93, 93);
+      color:white;
+    }
+    .btn-two{
+      border: 1px solid black;
+      margin-left: 30px;
+    }
+    .btn:hover{
+      background-color: rgb(112, 90, 231);
+      cursor: pointer;
+
+    }
+    .project{
+      margin-top: 35px;
+      padding: 35px;
+
+    }
+    .box1{
+      background-color: rgb(228, 204, 252);
+      border-radius: 15px;
+      padding: 20px;
+      margin: 15px;
+    font-size: small;
+    margin-top: 50px;
+    font-weight: lighter;
+    
+    }
+    .top .input{
+      margin-left: 10px;
+      margin-top: 4px;
+    }
+    .top img{
+      width:80px;
+      margin-left: 10px;
+      margin-top: 4px;
+    }
+    .top p{
+      background-color: rgb(241, 240, 240);
+      border-radius: 5px;
+      color: rgb(112, 90, 231);
+    padding: 5px;
+    margin-left: 10px;
+    font-weight: lighter;
+
+
+    }
+     .project h5{
+       color: rgb(112, 90, 231);
+       font-weight: lighter;
+     }
